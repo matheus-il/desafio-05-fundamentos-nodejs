@@ -1,5 +1,5 @@
 <h3 align="center">
-  Desafio 05: Conceitos do React Native
+  Desafio 05: Fundamentos Node.js
 </h3>
 
 ## 🍕 Sobre o desafio
@@ -9,8 +9,6 @@ Nesse desafio, você deve criar uma aplicação para continuar treinando o que v
 Essa será uma aplicação para armazenar transações financeiras de entrada e saída, que deve permitir o cadastro e a listagem dessas transações.
 
 ### Rotas da aplicação
-
-Agora que você já está com o template clonado, e pronto para continuar, você deve verificar os arquivos da pasta `src` e completar onde não possui código com o código para atingir os objetivos de cada rota.
 
 - **`POST /transactions`**: A rota deve receber `title`, `value` e `type` dentro do corpo da requisição, sendo `type` o tipo da transação, que deve ser `income` para entradas (depósitos) e `outcome` para saídas (retiradas). Ao cadastrar uma nova transação, ela deve ser armazenada dentro de um objeto com o seguinte formato :
 
